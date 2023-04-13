@@ -651,6 +651,19 @@ section {
   }
 
   /* Booking section styles */
+  .book-form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .book-form .input-group {
+    margin-bottom: 0;
+  }
+
+  .book-form .input-group:first-child {
+    flex: 0 0 20%;
+  }
+
   .input,
   .options {
     min-width: 10rem;
@@ -674,5 +687,11 @@ section {
 
   .room-info-wrap {
     margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .book-form .input-group:first-child {
+    flex: 0 0 20%;
   }
 }
