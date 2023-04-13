@@ -407,7 +407,7 @@ section {
   font-size: 2.6rem;
   background-color: var(--yellow-solid);
   color: #fff;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
   position: absolute;
   left: 0;
   bottom: 2.5rem;
