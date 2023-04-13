@@ -99,6 +99,14 @@ section {
   display: none;
 }
 
+.menu-open .hamburger-menu .fa-times {
+  display: block;
+}
+
+.menu-open .hamburger-menu .fa-bars {
+  display: none;
+}
+
 .nav-list {
   position: fixed;
   top: 0;
